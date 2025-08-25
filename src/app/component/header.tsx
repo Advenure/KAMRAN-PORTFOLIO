@@ -84,10 +84,10 @@ export default function NavBaar() {
   to show my work and projects as I keep improving. 🚀
 </p>
 
-           <div className="mt-6 flex flex-wrap gap-4">
+           <div className="mt-6 flex gap-4">
   <Link
     href="#portfolio"
-    className="inline-flex items-center gap-2 rounded-full bg-sky-500 px-4 py-2 md:px-6 md:py-2 text-white font-medium shadow hover:bg-sky-600 transition"
+    className="flex text-sm md:text-xl gap-2 rounded-full bg-sky-500 px-4 py-2 md:px-6 md:py-2 text-white font-medium shadow hover:bg-sky-600 transition"
   >
     View Work <ArrowRight size={18} />
   </Link>
@@ -95,7 +95,7 @@ export default function NavBaar() {
   <Link
     href="/KAMRAN AHMED RESUME.pdf"
     download
-    className="inline-flex items-center gap-2 rounded-full bg-gray-800 px-6 py-3 text-white font-medium shadow hover:bg-gray-900 transition"
+    className="flex text-sm md:text-xl gap-2 rounded-full bg-gray-800 px-6 py-3 text-white font-medium shadow hover:bg-gray-900 transition"
   >
     <Download size={18} />
     Download CV
